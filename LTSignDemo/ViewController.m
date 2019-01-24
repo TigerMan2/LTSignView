@@ -21,14 +21,14 @@
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    LTSignView *signView = [[LTSignView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
-    signView.lineWidth = 5;
-    signView.lineColor = [UIColor redColor];
-    self.signView = signView;
-    [self.view addSubview:signView];
-    
-    self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 300)];
-    [self.view addSubview:self.imageView];
+//    LTSignView *signView = [[LTSignView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
+//    signView.lineWidth = 5;
+//    signView.lineColor = [UIColor redColor];
+//    self.signView = signView;
+//    [self.view addSubview:signView];
+//    
+//    self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 300)];
+//    [self.view addSubview:self.imageView];
     
 }
 - (IBAction)clearClick:(id)sender {
