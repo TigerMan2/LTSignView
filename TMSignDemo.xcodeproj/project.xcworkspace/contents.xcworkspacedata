@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LTSignDemo.xcodeproj">
+      location = "self:/Users/wangpeng/Desktop/LTSignView/TMSignDemo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -13,9 +13,9 @@
 		AAA1F25F21CB67E0008F0AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1F25E21CB67E0008F0AFC /* Assets.xcassets */; };
 		AAA1F26221CB67E0008F0AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA1F26021CB67E0008F0AFC /* LaunchScreen.storyboard */; };
 		AAA1F26521CB67E0008F0AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F26421CB67E0008F0AFC /* main.m */; };
-		AAA1F26F21CB67E0008F0AFC /* LTSignDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F26E21CB67E0008F0AFC /* LTSignDemoTests.m */; };
-		AAA1F27A21CB67E0008F0AFC /* LTSignDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F27921CB67E0008F0AFC /* LTSignDemoUITests.m */; };
-		AAA1F28A21CB6807008F0AFC /* LTSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F28921CB6807008F0AFC /* LTSignView.m */; };
+		AAA1F26F21CB67E0008F0AFC /* TMSignDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F26E21CB67E0008F0AFC /* TMSignDemoTests.m */; };
+		AAA1F27A21CB67E0008F0AFC /* TMSignDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F27921CB67E0008F0AFC /* TMSignDemoUITests.m */; };
+		AAA1F28A21CB6807008F0AFC /* TMSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1F28921CB6807008F0AFC /* TMSignView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAA1F25221CB67DF008F0AFC /* LTSignDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTSignDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1F25221CB67DF008F0AFC /* TMSignDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMSignDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1F25521CB67DF008F0AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAA1F25621CB67DF008F0AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AAA1F25821CB67DF008F0AFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,14 +46,14 @@
 		AAA1F26121CB67E0008F0AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA1F26321CB67E0008F0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA1F26421CB67E0008F0AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAA1F26A21CB67E0008F0AFC /* LTSignDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTSignDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA1F26E21CB67E0008F0AFC /* LTSignDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSignDemoTests.m; sourceTree = "<group>"; };
+		AAA1F26A21CB67E0008F0AFC /* TMSignDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMSignDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1F26E21CB67E0008F0AFC /* TMSignDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMSignDemoTests.m; sourceTree = "<group>"; };
 		AAA1F27021CB67E0008F0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAA1F27521CB67E0008F0AFC /* LTSignDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTSignDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA1F27921CB67E0008F0AFC /* LTSignDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSignDemoUITests.m; sourceTree = "<group>"; };
+		AAA1F27521CB67E0008F0AFC /* TMSignDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMSignDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1F27921CB67E0008F0AFC /* TMSignDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMSignDemoUITests.m; sourceTree = "<group>"; };
 		AAA1F27B21CB67E0008F0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAA1F28821CB6807008F0AFC /* LTSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTSignView.h; sourceTree = "<group>"; };
-		AAA1F28921CB6807008F0AFC /* LTSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSignView.m; sourceTree = "<group>"; };
+		AAA1F28821CB6807008F0AFC /* TMSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMSignView.h; sourceTree = "<group>"; };
+		AAA1F28921CB6807008F0AFC /* TMSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMSignView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		AAA1F24921CB67DF008F0AFC = {
 			isa = PBXGroup;
 			children = (
-				AAA1F25421CB67DF008F0AFC /* LTSignDemo */,
-				AAA1F26D21CB67E0008F0AFC /* LTSignDemoTests */,
-				AAA1F27821CB67E0008F0AFC /* LTSignDemoUITests */,
+				AAA1F25421CB67DF008F0AFC /* TMSignDemo */,
+				AAA1F26D21CB67E0008F0AFC /* TMSignDemoTests */,
+				AAA1F27821CB67E0008F0AFC /* TMSignDemoUITests */,
 				AAA1F25321CB67DF008F0AFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,17 +94,17 @@
 		AAA1F25321CB67DF008F0AFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAA1F25221CB67DF008F0AFC /* LTSignDemo.app */,
-				AAA1F26A21CB67E0008F0AFC /* LTSignDemoTests.xctest */,
-				AAA1F27521CB67E0008F0AFC /* LTSignDemoUITests.xctest */,
+				AAA1F25221CB67DF008F0AFC /* TMSignDemo.app */,
+				AAA1F26A21CB67E0008F0AFC /* TMSignDemoTests.xctest */,
+				AAA1F27521CB67E0008F0AFC /* TMSignDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAA1F25421CB67DF008F0AFC /* LTSignDemo */ = {
+		AAA1F25421CB67DF008F0AFC /* TMSignDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AAA1F28721CB67FB008F0AFC /* LTSignView */,
+				AAA1F28721CB67FB008F0AFC /* TMSignView */,
 				AAA1F25521CB67DF008F0AFC /* AppDelegate.h */,
 				AAA1F25621CB67DF008F0AFC /* AppDelegate.m */,
 				AAA1F25821CB67DF008F0AFC /* ViewController.h */,
@@ -115,42 +115,42 @@
 				AAA1F26321CB67E0008F0AFC /* Info.plist */,
 				AAA1F26421CB67E0008F0AFC /* main.m */,
 			);
-			path = LTSignDemo;
+			path = TMSignDemo;
 			sourceTree = "<group>";
 		};
-		AAA1F26D21CB67E0008F0AFC /* LTSignDemoTests */ = {
+		AAA1F26D21CB67E0008F0AFC /* TMSignDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAA1F26E21CB67E0008F0AFC /* LTSignDemoTests.m */,
+				AAA1F26E21CB67E0008F0AFC /* TMSignDemoTests.m */,
 				AAA1F27021CB67E0008F0AFC /* Info.plist */,
 			);
-			path = LTSignDemoTests;
+			path = TMSignDemoTests;
 			sourceTree = "<group>";
 		};
-		AAA1F27821CB67E0008F0AFC /* LTSignDemoUITests */ = {
+		AAA1F27821CB67E0008F0AFC /* TMSignDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AAA1F27921CB67E0008F0AFC /* LTSignDemoUITests.m */,
+				AAA1F27921CB67E0008F0AFC /* TMSignDemoUITests.m */,
 				AAA1F27B21CB67E0008F0AFC /* Info.plist */,
 			);
-			path = LTSignDemoUITests;
+			path = TMSignDemoUITests;
 			sourceTree = "<group>";
 		};
-		AAA1F28721CB67FB008F0AFC /* LTSignView */ = {
+		AAA1F28721CB67FB008F0AFC /* TMSignView */ = {
 			isa = PBXGroup;
 			children = (
-				AAA1F28821CB6807008F0AFC /* LTSignView.h */,
-				AAA1F28921CB6807008F0AFC /* LTSignView.m */,
+				AAA1F28821CB6807008F0AFC /* TMSignView.h */,
+				AAA1F28921CB6807008F0AFC /* TMSignView.m */,
 			);
-			path = LTSignView;
+			path = TMSignView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAA1F25121CB67DF008F0AFC /* LTSignDemo */ = {
+		AAA1F25121CB67DF008F0AFC /* TMSignDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA1F27E21CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemo" */;
+			buildConfigurationList = AAA1F27E21CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemo" */;
 			buildPhases = (
 				AAA1F24E21CB67DF008F0AFC /* Sources */,
 				AAA1F24F21CB67DF008F0AFC /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = LTSignDemo;
+			name = TMSignDemo;
 			productName = LTSignDemo;
-			productReference = AAA1F25221CB67DF008F0AFC /* LTSignDemo.app */;
+			productReference = AAA1F25221CB67DF008F0AFC /* TMSignDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAA1F26921CB67E0008F0AFC /* LTSignDemoTests */ = {
+		AAA1F26921CB67E0008F0AFC /* TMSignDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA1F28121CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemoTests" */;
+			buildConfigurationList = AAA1F28121CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemoTests" */;
 			buildPhases = (
 				AAA1F26621CB67E0008F0AFC /* Sources */,
 				AAA1F26721CB67E0008F0AFC /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				AAA1F26C21CB67E0008F0AFC /* PBXTargetDependency */,
 			);
-			name = LTSignDemoTests;
+			name = TMSignDemoTests;
 			productName = LTSignDemoTests;
-			productReference = AAA1F26A21CB67E0008F0AFC /* LTSignDemoTests.xctest */;
+			productReference = AAA1F26A21CB67E0008F0AFC /* TMSignDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AAA1F27421CB67E0008F0AFC /* LTSignDemoUITests */ = {
+		AAA1F27421CB67E0008F0AFC /* TMSignDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA1F28421CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemoUITests" */;
+			buildConfigurationList = AAA1F28421CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemoUITests" */;
 			buildPhases = (
 				AAA1F27121CB67E0008F0AFC /* Sources */,
 				AAA1F27221CB67E0008F0AFC /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				AAA1F27721CB67E0008F0AFC /* PBXTargetDependency */,
 			);
-			name = LTSignDemoUITests;
+			name = TMSignDemoUITests;
 			productName = LTSignDemoUITests;
-			productReference = AAA1F27521CB67E0008F0AFC /* LTSignDemoUITests.xctest */;
+			productReference = AAA1F27521CB67E0008F0AFC /* TMSignDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AAA1F24D21CB67DF008F0AFC /* Build configuration list for PBXProject "LTSignDemo" */;
+			buildConfigurationList = AAA1F24D21CB67DF008F0AFC /* Build configuration list for PBXProject "TMSignDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAA1F25121CB67DF008F0AFC /* LTSignDemo */,
-				AAA1F26921CB67E0008F0AFC /* LTSignDemoTests */,
-				AAA1F27421CB67E0008F0AFC /* LTSignDemoUITests */,
+				AAA1F25121CB67DF008F0AFC /* TMSignDemo */,
+				AAA1F26921CB67E0008F0AFC /* TMSignDemoTests */,
+				AAA1F27421CB67E0008F0AFC /* TMSignDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +278,7 @@
 				AAA1F25A21CB67DF008F0AFC /* ViewController.m in Sources */,
 				AAA1F26521CB67E0008F0AFC /* main.m in Sources */,
 				AAA1F25721CB67DF008F0AFC /* AppDelegate.m in Sources */,
-				AAA1F28A21CB6807008F0AFC /* LTSignView.m in Sources */,
+				AAA1F28A21CB6807008F0AFC /* TMSignView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA1F26F21CB67E0008F0AFC /* LTSignDemoTests.m in Sources */,
+				AAA1F26F21CB67E0008F0AFC /* TMSignDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA1F27A21CB67E0008F0AFC /* LTSignDemoUITests.m in Sources */,
+				AAA1F27A21CB67E0008F0AFC /* TMSignDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		AAA1F26C21CB67E0008F0AFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAA1F25121CB67DF008F0AFC /* LTSignDemo */;
+			target = AAA1F25121CB67DF008F0AFC /* TMSignDemo */;
 			targetProxy = AAA1F26B21CB67E0008F0AFC /* PBXContainerItemProxy */;
 		};
 		AAA1F27721CB67E0008F0AFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAA1F25121CB67DF008F0AFC /* LTSignDemo */;
+			target = AAA1F25121CB67DF008F0AFC /* TMSignDemo */;
 			targetProxy = AAA1F27621CB67E0008F0AFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ7NY22246;
-				INFOPLIST_FILE = LTSignDemo/Info.plist;
+				INFOPLIST_FILE = TMSignDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ7NY22246;
-				INFOPLIST_FILE = LTSignDemo/Info.plist;
+				INFOPLIST_FILE = TMSignDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.LTSignDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSignDemo.app/LTSignDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMSignDemo.app/TMSignDemo";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.LTSignDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSignDemo.app/LTSignDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMSignDemo.app/TMSignDemo";
 			};
 			name = Release;
 		};
@@ -552,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAA1F24D21CB67DF008F0AFC /* Build configuration list for PBXProject "LTSignDemo" */ = {
+		AAA1F24D21CB67DF008F0AFC /* Build configuration list for PBXProject "TMSignDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA1F27C21CB67E0008F0AFC /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAA1F27E21CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemo" */ = {
+		AAA1F27E21CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA1F27F21CB67E0008F0AFC /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAA1F28121CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemoTests" */ = {
+		AAA1F28121CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA1F28221CB67E0008F0AFC /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAA1F28421CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "LTSignDemoUITests" */ = {
+		AAA1F28421CB67E0008F0AFC /* Build configuration list for PBXNativeTarget "TMSignDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA1F28521CB67E0008F0AFC /* Debug */,

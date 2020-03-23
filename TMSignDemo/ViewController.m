@@ -1,16 +1,16 @@
 //
 //  ViewController.m
-//  LTSignDemo
+//  TMSignDemo
 //
 //  Created by Luther on 2018/12/20.
 //  Copyright © 2018 mrstock. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "LTSignView.h"
+#import "TMSignView.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) LTSignView *signView;
+@property (nonatomic, strong) TMSignView *signView;
 @property (nonatomic, strong) UIImageView *imageView;
 @end
 
@@ -21,7 +21,7 @@
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    LTSignView *signView = [[LTSignView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
+    TMSignView *signView = [[TMSignView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
     signView.lineWidth = 5;
     signView.lineColor = [UIColor redColor];
     self.signView = signView;

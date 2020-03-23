@@ -1,6 +1,6 @@
 //
-//  LTSignDemoUITests.m
-//  LTSignDemoUITests
+//  TMSignDemoUITests.m
+//  TMSignDemoUITests
 //
 //  Created by Luther on 2018/12/20.
 //  Copyright © 2018 mrstock. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface LTSignDemoUITests : XCTestCase
+@interface TMSignDemoUITests : XCTestCase
 
 @end
 
-@implementation LTSignDemoUITests
+@implementation TMSignDemoUITests
 
 - (void)setUp {
     [super setUp];

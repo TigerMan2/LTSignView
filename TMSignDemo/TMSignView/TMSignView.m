@@ -1,14 +1,14 @@
 //
-//  LTSignView.m
-//  LTSignDemo
+//  TMSignView.m
+//  TMSignDemo
 //
 //  Created by Luther on 2018/12/20.
 //  Copyright © 2018 mrstock. All rights reserved.
 //
 
-#import "LTSignView.h"
+#import "TMSignView.h"
 
-@interface LTSignView ()
+@interface TMSignView ()
 @property (nonatomic, strong) UIBezierPath *signPath;
 @property (nonatomic, assign) CGPoint oldPoint;
 
@@ -19,7 +19,7 @@
 @property (nonatomic, assign) CGFloat maxY;
 @end
 
-@implementation LTSignView
+@implementation TMSignView
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
